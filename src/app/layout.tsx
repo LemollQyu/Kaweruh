@@ -5,6 +5,9 @@ import { ThemeProvider } from "../components/theme-provider"
 
 import Navigasi from "./comp/navigasi"
 
+
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+    <html lang="en">
+      <body className={inter.className} suppressHydrationWarning={true}>
 		<ThemeProvider
             attribute="class"
             defaultTheme="system"
