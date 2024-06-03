@@ -69,11 +69,13 @@ export default async function Navigasi (){
 							</>
 							
 							:
+							
 							<Link href="/signup" className="px-3 py-1 w-20  bg-transparent border  rounded-md transition-colors duration-700 transform hover:bg-gray-500 hover:text-gray-100 font-Alliance text-center text-l md:text-lg focus:border-gray-300">Signup</Link>
 						}
 						
-						<ModeGelap />
+						                                                                                                                                           <ModeGelap />                                                                                                                                                                                                                           
 					</div>
+					
 				</div>
 				
 			</div>

@@ -1,6 +1,6 @@
 import Auth from "@/lib/session"
 import Swape from "./comp/swape"
-
+import Card from "./comp/card"
 
 export default async function Home() {
 	const user = await Auth()
@@ -27,9 +27,13 @@ export default async function Home() {
 		
 	</div>
 	
-	<div className="px-3 lg:px-24 border-b-[1.9px] h-[200px] border-dashed">
+	<Card />
+	
+	<div className="px-3 h-20 lg:px-24 border-b-[1.9px] border-dashed">
+		
 		
 	</div>
+	
 	
 </>
   );
