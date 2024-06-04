@@ -19,7 +19,7 @@ export default async function Navigasi (){
 
 			<div className="border-dashed h-40  border-x-[1.9px] lg:px-5">
 			
-				<div className="flex opacity-1 dark:bg-[#020817]/75 bg-transparent w-full left-0 px-3 md:px-5 lg:px-24 z-20 fixed items-center justify-between    py-5">
+				<div className="flex opacity-1 backdrop-blur shadow-xl dark:bg-[#020817]/75 bg-transparent w-full left-0 px-3 md:px-5 lg:px-24 z-20 fixed items-center justify-between    py-5">
 					<div className="flex gap-2 items-center">
 						
 							<h1 className="font-Alliance mb-1  md:text-l lg:text-2xl">Kaweruh</h1>
