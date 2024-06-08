@@ -15,9 +15,9 @@ export default async function Navigasi (){
 	return (
 	<>
 	
-	<div className="px-3 lg:px-24 border-dashed relative   border-b-[1.9px]">
+	<div className="px-3 lg:px-24 border-dashed relative   border-b-[1.9px] w-full">
 
-			<div className="border-dashed h-40  border-x-[1.9px] lg:px-5">
+			<div className="border-dashed h-40  border-x-[1.9px] lg:px-5 w-full">
 			
 				<div className="flex opacity-1 backdrop-blur shadow-xl dark:bg-[#020817]/75 bg-transparent w-full left-0 px-3 md:px-5 lg:px-24 z-20 fixed items-center justify-between    py-5">
 					<div className="flex gap-2 items-center">
@@ -49,7 +49,7 @@ export default async function Navigasi (){
 						
 						
 							
-					<div className="flex gap-5 items-center">
+					<div className="flex lg:gap-5 gap-2 items-center">
 						{
 							user ? 
 							<>

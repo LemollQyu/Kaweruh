@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} suppressHydrationWarning={true}>
+      <body className={inter.className} suppressHydrationWarning>
 		<ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -31,9 +31,10 @@ export default function RootLayout({
           >
 			
 			
-			<Navigasi />
-            {children}
-          </ThemeProvider>
+				<Navigasi />
+				{children}
+			  </ThemeProvider>
+		 
 	  </body>
     </html>
   );

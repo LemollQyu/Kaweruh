@@ -9,30 +9,94 @@ const Html = () => {
 
 	
 	const list = [
-'https://youtu.be/CleFk3BZB3g?si=2IE4BYQfkHy2JX36',
-'https://youtu.be/8lXDi2Mxp9c?si=2kFLxDUq5D4l8w8p',
-'https://youtu.be/bnnislprJro?si=moDS9QkmQVvO2Feo',
-'https://youtu.be/nPHed3_oPvY?si=WP_IgXPLSCCbCUNi',
-'https://youtu.be/xih8giA7S3Q?si=auTlsjMEF6gblLkk',
-'https://youtu.be/zm-HPYS_ELU?si=aPjSh-cyJ1h6q0Ov',
-'https://youtu.be/0KLwWyQyMQo?si=Yez2Y-GaPWjCnNkL',
-'https://youtu.be/G0gYWdIHOug?si=TC5rh68dVT6-2PK1',
-'https://youtu.be/kY2FEA3y43E?si=roO4i-HVk7OIG_hi',
-'https://youtu.be/yu74Y1ndd5w?si=27BPjWh1c4LX5nyN',
+'https://youtu.be/To1O7QFe-2E?si=cPkeFIFRYF76Pj-U',
+
+'https://youtu.be/9XmupjKG8JA?si=7dFqbI00cSjqR2La',
+
+
+'https://youtu.be/CRQgeG2gick?si=bTnAyul__Z13asNZ',
+'https://youtu.be/uZbJX7DNjWo?si=FJ2oAiAhwLMAMccK',
+
+
+'https://youtu.be/UAptUH-fRkk?si=mJ_w3wIP4Q0BVbkl',
+
+
+'https://youtu.be/j_te8wLdbi4?si=RvrVrm7TZ5djIRMC',
+
+ 
+'https://youtu.be/sdIMR1--EpI?si=a5t07C26I2T--ZZe',
+
+ 
+'https://youtu.be/X06Rm2Cjg5M?si=tw4y9119x0qWVLMe',
+
+ 
+'https://youtu.be/Kw7qrDKPq04?si=NTqGehI_OELmIzXK',
+'https://youtu.be/LpGmLI4TF3c?si=D2VvErb1bCtH8hpC',
+
+ 
+'https://youtu.be/-rDLrwdKAVw?si=8Es0Jhe46ghhuPuc',
+
+'https://youtu.be/e_abMWHcWSM?si=nc2mp6HEc4GoEzhM',
+
+ 
+'https://youtu.be/sIJKIwWhOtc?si=l64YzzkwtVDOqIy_',
+
+ 
+'https://youtu.be/Ng_C7GBswF0?si=pTsLzU4FD3Z_k7JV',
+
+
+'https://youtu.be/Jli5dSUqQIc?si=1wz5XOnlfT3MhD4J',
+'https://youtu.be/YE4RY1UrI_Q?si=YDPW12CY4UwAhIHG',
+
+ 
+'https://youtu.be/ZUM9_2UKGFs?si=y5W-8CQTz0sxSebP',
+
+ 
+'https://youtu.be/ocjs7gDZR6w?si=H_fp6NJn-xRTbZyl',
+
+ 
+'https://youtu.be/gKnd7wgd3Co?si=8DADDdR1lHnSTUe6',
+
+
+'https://youtu.be/mr5-Y99mRpc?si=OdsW-BJeseNhLrPp',
+
+ 
+'https://youtu.be/0cULPoVKlcc?si=t0isZks9x1bOo4kD',
+
+
+'https://youtu.be/wEdcVPlVJ0Q?si=1okTSHWygng6_ONs'
+
+
 			
 	]
 	
 	const listModulHtml = [
-			"Pendahuluan",
-			"Anatomi CSS",
-			'Penempatan CSS',
-			'Font styling',
-			'Text styling',
-			'Background',
-			'Selector',
-			'Pseudo class', 
-			'Inheeitance',
-			'Spesificity'
+				
+'Persiapan belajar js',
+'Debugging tools',
+'Membuat Variabel 1',
+'Membuat Variabel 2',
+'Tipe data',
+'Mengubah tipe data ke dalam string',
+'Mengubah tipe data ke dalam number',
+'Angka dan objek matematika',
+'Memanipulasi nilai string 1',
+'Memanipulasi nilai string 2',
+'Membuat elemen HTML dengan template string',
+'Tipe data array beserta method',
+'Tipe data object',
+'Menampilkan tanggal dan waktu',
+'If statemen dan operator pembanding 1',
+'If statemen dan operator pembanding 2',
+'Statement switch',
+'Function',
+'Perulangan',
+'Window objek',
+'Lingkup var, let dan cons variable',
+'Reduce'
+
+
+
 			
 			
 			
@@ -45,7 +109,7 @@ const Html = () => {
 					
 				<div className="border-dashed border-x-[1.9px]">
 					<div className="border-blue-600 border-l pl-5 absolute top-28">
-						<h1 className="text-blue-600">CSS</h1>
+						<h1 className="text-blue-600">Javacript</h1>
 					</div>
 				</div>
 				
