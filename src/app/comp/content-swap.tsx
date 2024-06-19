@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-export default function ContentSwap({developer, linkStudy, textStartup, startup, logo, altStartup, grafik}){
+export default function ContentSwap({developer, linkStudy, textStartup, startup, logo, altStartup, grafik}:any){
 		return(
 		
 			<>

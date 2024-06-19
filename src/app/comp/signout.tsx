@@ -12,7 +12,7 @@ export default function UserAccountnav () {
 	<button onClick={() => {
 		signOut({
 			redirect: true,
-			callbackUrl: `${window.location.origin}/`
+			callbackUrl: `${window.location.origin}`
 	
 		})
 	}} variant="destructive">Sign Out</ button>

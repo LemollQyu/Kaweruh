@@ -1,7 +1,6 @@
 "use client"
 
 import React from 'react'
-import ReactPlayer from 'react-player/youtube'
 
 import {useState} from "react"
 
@@ -32,13 +31,9 @@ export default function Dropdown({link}:any) {
 				
 				
 					
-					<div className={`transition-all mt-16 duration-600 w-full ${ada} lg:w-[500px] mt-10 h-[200px] mx-auto`}>
-						 <ReactPlayer 
-							className="w-full h-full object-cover"
-							width="100"
-							height="100"
-							url={link}
-						/>
+					<div className={`transition-all mt-16 duration-600 w-full ${ada} lg:w-[500px] mt-10 h-[300px] mx-auto`}>
+						 
+						 <iframe className="w-full h-full object-cover" src={link} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 					</div>
 					
 					<div className="mt-10 w-full px-0 lg:px-16  h-[320px] overflow-y-auto">

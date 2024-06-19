@@ -1,6 +1,7 @@
 import Auth from "@/lib/session"
 import Swape from "./comp/swape"
 import Card from "./comp/card"
+import Footer from "@/app/comp/footer"
 
 export default async function Home() {
 	const user = await Auth()
@@ -33,6 +34,7 @@ export default async function Home() {
 		
 		
 	</div>
+	<Footer />
 	
 	
 </>

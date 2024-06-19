@@ -8,6 +8,7 @@ import SignOut from "./signout"
 
 
 
+
 export default async function Navigasi (){
 	const user = await Auth()
 
@@ -21,9 +22,10 @@ export default async function Navigasi (){
 			
 				<div className="flex opacity-1 backdrop-blur shadow-xl dark:bg-[#020817]/75 bg-transparent w-full left-0 px-3 md:px-5 lg:px-24 z-20 fixed items-center justify-between    py-5">
 					<div className="flex gap-2 items-center">
-						
-							<h1 className="font-Alliance mb-1  md:text-l lg:text-2xl">Kaweruh</h1>
-							<div className="w-[20px] h-[20px] rounded-full">
+							
+							<Link href="/" className="font-Alliance mb-1  md:text-l lg:text-2xl">Kaweruh</Link>
+							
+							<Link className="w-[20px] h-[20px] rounded-full" href="/">
 								<Image
 									src="/logo.svg"
 									width={50}
@@ -31,13 +33,14 @@ export default async function Navigasi (){
 									alt="Picture of the author"
 									className="dark:bg-white rounded-full  w-full h-full object-cover"
 								/>
-							</div>
+							</Link>
+							
 					
 						
 						<div className="md:flex items-center md:gap-5 md:ml-12 hidden">
 							<button>Service</button>
 							<Link href="#">About</Link>	
-							<Link href="#">Community</Link>
+							<Link href="/community">Community</Link>
 						</div>
 						
 						

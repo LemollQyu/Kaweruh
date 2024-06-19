@@ -1,6 +1,6 @@
 "use client"
 
-
+import Link from "next/link"
 import { useState } from "react"
 
 const SignUp = () => {
@@ -12,8 +12,8 @@ const SignUp = () => {
 	
 	const wSpan = password.length
 
-	const handleSubmit = async (e) => {
-		event.preventDefault();
+	const handleSubmit = async (e:any) => {
+		e.preventDefault();
 		//alert(`${nama} ${password} ${email}`)
 		const data = {nama, email, password}
 		console.log(data)
@@ -121,6 +121,7 @@ const SignUp = () => {
 					<PassSpan />
 					  <p className="text-sm text-gray-400">Gunakan minimal 8 karakter dengan kombinasi huruf dan angka
 					  </p>
+					  <p className="text-gray-500 text-light font-[Alliance]">Sudah punya akun Login <Link className="underline" href="/signin">disini</Link></p>
 				</div>
 				  <br />
 				<button className="w-full bg-[#2d3e50] h-[40px] text-white">Sign In</button> 

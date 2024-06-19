@@ -17,3 +17,30 @@ model User {
 	@@unique([email])
 }
 
+model QuestionsHtml {
+
+	id			Int @id @default(autoincrement())
+	nama 		String
+	waktu		String
+	pesan		String
+	
+}
+
+model QuestionsCss {
+
+	id			Int @id @default(autoincrement())
+	nama 		String
+	waktu		String
+	pesan		String
+	
+}
+
+model QuestionsJavascript {
+
+	id			Int @id @default(autoincrement())
+	nama 		String
+	waktu		String
+	pesan		String
+	
+}
+
