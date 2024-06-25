@@ -38,7 +38,18 @@ export default async function Navigasi (){
 					
 						
 						<div className="md:flex items-center md:gap-5 md:ml-12 hidden">
-							<button>Service</button>
+							<div className="group relative">
+								<p>Service</p>
+								<div className="absolute group-hover:h-20 -left-5 group-hover:border transition-all dark:bg-[#020817]/75 bg-transparentduration-600 h-0 w-[100px] border-0">
+									<div className="group-hover:flex flex-col hidden ">
+										<Link href="/html">html</Link>	
+										<Link href="/css">css</Link>
+										<Link href="/javascript">Javascript</Link>
+									</div>
+											
+								</div>
+							
+							</div>
 							<Link href="#">About</Link>	
 							<Link href="/community">Community</Link>
 						</div>

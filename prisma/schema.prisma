@@ -44,3 +44,41 @@ model QuestionsJavascript {
 	
 }
 
+model AskHtml {
+
+	id					Int @id @default(autoincrement())
+	namaPenjawab 		String
+	namaPenanya 		String
+	waktu				String
+	pesan				String
+	pesanPenjawab		String
+	pesanPenanya		String
+	
+}
+
+model AskCss {
+
+	id					Int @id @default(autoincrement())
+	namaPenjawab 		String
+	namaPenanya 		String
+	waktu				String
+	pesan				String
+	pesanPenjawab		String
+	pesanPenanya		String
+	
+}
+
+model AskJavascript {
+
+	id					Int @id @default(autoincrement())
+	namaPenjawab 		String
+	namaPenanya 		String
+	waktu				String
+	pesan				String
+	pesanPenjawab		String
+	pesanPenanya		String
+	
+}
+
+
+

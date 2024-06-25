@@ -1,9 +1,9 @@
 import db from '@/lib/db'
 import Jawab from "../comp/jawab"
 
-const CommunityHtml = async () => {
+const CommunityJavascript = async () => {
 
-	const komentar = await db.QuestionsHtml.findMany();
+	const komentar = await db.QuestionsJavascript.findMany();
 	console.log(komentar)
 	
 	
@@ -11,7 +11,7 @@ const CommunityHtml = async () => {
 	return (
 		<>
 			<div className="border-blue-600 border-l pl-5 absolute left-3 lg:left-24 top-28">
-				<h1 className="text-blue-600">Komunitas HTML</h1>
+				<h1 className="text-blue-600">Komunitas Javascript</h1>
 			</div>
 			
 			<div className="w-full px-3 lg:px-24 ">
@@ -24,7 +24,7 @@ const CommunityHtml = async () => {
 				
 			</div>
 			
-			<div className="w-full px-3 lg:px-24 flex flex-col gap-5 py-3 border-dashed border-y-[1.9px]">
+			<div className="w-full px-3 lg:px-24 border-dashed border-y-[1.9px]">
 				{
 					komentar.map(comment => {
 						console.log(comment)
@@ -32,7 +32,7 @@ const CommunityHtml = async () => {
 						return (
 							<>
 							
-								<div key={comment.id} className="flex flex-col gap-2 w-full border-dashed border-y-[1.9px]  border-x-[1.9px]">
+								<div key={comment.id} className="w-full border-dashed border-b-[1.9px]  border-x-[1.9px]">
 									 
 										<p className="text-bold text-sm">{comment.nama}</p>
 										<p className="text-light text-sm">{comment.waktu}</p>
@@ -54,4 +54,4 @@ const CommunityHtml = async () => {
 	)
 }
 
-export default CommunityHtml
+export default CommunityJavascript
